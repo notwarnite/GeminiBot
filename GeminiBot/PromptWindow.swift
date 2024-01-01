@@ -10,6 +10,8 @@ import GoogleGenerativeAI
 
 struct PromptWindow: View {
     let model = GenerativeModel(name: "gemini-pro", apiKey: APIKey.default)
+    let modelImage = GenerativeModel(name: "gemini-pro-vision", apiKey: APIKey.default)
+
     
     @State var textInput = ""
     @State var aiResponse = "Hello! What brings you here?"
@@ -19,8 +21,9 @@ struct PromptWindow: View {
         ZStack{
             LinearGradient(
                 colors: [
-                    Color.red,
-                    Color.purple
+                    Color.blue,
+                    Color.purple,
+                    Color.cyan
                 ],
                 startPoint: .topLeading,
                 endPoint: .bottomTrailing
@@ -51,9 +54,16 @@ struct PromptWindow: View {
                         .foregroundColor(.black)
                         .disabled(isLoading)
                     
+//                    Button(action: uploadImage, label: {
+//                        Image(systemName: "photo.fill")
+//                            .foregroundColor(.white)
+////                            .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
+//                    })
+                    
                     Button(action: sendRequest, label: {
                         Image(systemName: "paperplane.fill")
-                            .fontWeight(.bold)
+                            .foregroundColor(.white)
+//                            .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
                     })
                 }
             }

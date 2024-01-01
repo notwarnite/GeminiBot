@@ -15,6 +15,8 @@
 		730C0BDC2B42A54B003B2272 /* APIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730C0BDB2B42A54B003B2272 /* APIKey.swift */; };
 		730C0BDF2B42A6D7003B2272 /* GoogleGenerativeAI in Frameworks */ = {isa = PBXBuildFile; productRef = 730C0BDE2B42A6D7003B2272 /* GoogleGenerativeAI */; };
 		730C0BE12B42A70D003B2272 /* PromptWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730C0BE02B42A70D003B2272 /* PromptWindow.swift */; };
+		730C0BE32B430424003B2272 /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730C0BE22B430424003B2272 /* TabView.swift */; };
+		730C0BE52B431B87003B2272 /* ChatWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730C0BE42B431B87003B2272 /* ChatWindow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		730C0BD92B42A4ED003B2272 /* GeminiApiKey.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = GeminiApiKey.plist; sourceTree = "<group>"; };
 		730C0BDB2B42A54B003B2272 /* APIKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKey.swift; sourceTree = "<group>"; };
 		730C0BE02B42A70D003B2272 /* PromptWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromptWindow.swift; sourceTree = "<group>"; };
+		730C0BE22B430424003B2272 /* TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
+		730C0BE42B431B87003B2272 /* ChatWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatWindow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,9 +67,11 @@
 				730C0BCB2B42A4B9003B2272 /* GeminiBotApp.swift */,
 				730C0BE02B42A70D003B2272 /* PromptWindow.swift */,
 				730C0BCD2B42A4B9003B2272 /* ContentView.swift */,
+				730C0BE22B430424003B2272 /* TabView.swift */,
 				730C0BCF2B42A4BA003B2272 /* Assets.xcassets */,
 				730C0BD12B42A4BA003B2272 /* Preview Content */,
 				730C0BDB2B42A54B003B2272 /* APIKey.swift */,
+				730C0BE42B431B87003B2272 /* ChatWindow.swift */,
 			);
 			path = GeminiBot;
 			sourceTree = "<group>";
@@ -155,8 +161,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				730C0BE32B430424003B2272 /* TabView.swift in Sources */,
 				730C0BCE2B42A4B9003B2272 /* ContentView.swift in Sources */,
 				730C0BDC2B42A54B003B2272 /* APIKey.swift in Sources */,
+				730C0BE52B431B87003B2272 /* ChatWindow.swift in Sources */,
 				730C0BCC2B42A4B9003B2272 /* GeminiBotApp.swift in Sources */,
 				730C0BE12B42A70D003B2272 /* PromptWindow.swift in Sources */,
 			);

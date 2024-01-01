@@ -11,7 +11,7 @@ import SwiftUI
 struct GeminiBotApp: App {
     var body: some Scene {
         WindowGroup {
-            PromptWindow()
+            TabNav()
         }
     }
 }
