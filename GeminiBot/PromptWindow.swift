@@ -61,9 +61,9 @@ struct PromptWindow: View {
 //                    })
                     
                     Button(action: sendRequest, label: {
-                        Image(systemName: "paperplane.fill")
+                        Image(systemName: "arrow.up.circle.fill")
                             .foregroundColor(.white)
-//                            .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
+                            .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
                     })
                 }
             }

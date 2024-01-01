@@ -184,8 +184,9 @@ struct ChatWindow: View {
                         .foregroundColor(.black)
                     
                     Button(action: sendMessage, label: {
-                        Image(systemName: "paperplane.fill")
+                        Image(systemName: "arrow.up.circle.fill")
                             .foregroundColor(.white)
+                            .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
                     })
                 }
             }
