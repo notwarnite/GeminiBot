@@ -31,4 +31,9 @@ To run the app locally, follow these steps:
 
 For detailed information on the Gemini Pro API, refer to the documentation provided by Google Studio. Ensure that you have the necessary API keys and credentials for a smooth integration.
 
-<img width="437" alt="Screenshot 2024-01-01 at 2 59 06 PM" src="https://github.com/notwarnite/GeminiBot/assets/54807257/1e03a9a4-0d8b-4708-9b32-d1ee064a8e49">
+<div>
+  <img width="437" alt="Screenshot 2024-01-01 at 2 59 06 PM" src="https://github.com/notwarnite/GeminiBot/assets/54807257/1e03a9a4-0d8b-4708-9b32-d1ee064a8e49" alt="Screenshot 1" width="200">
+  <img width="437" alt="Screenshot 2024-01-01 at 10 17 14 PM" src="https://github.com/notwarnite/GeminiBot/assets/54807257/322784be-9b31-4ec6-8a2b-6a3d16a1906f" alt="Screenshot 2" width="200">
+  <img width="437" alt="Screenshot 2024-01-01 at 10 17 53 PM" src="https://github.com/notwarnite/GeminiBot/assets/54807257/a55d23e1-94a4-43d5-b792-c73827b81a00" alt="Screenshot 3" width="200">
+</div>
+
