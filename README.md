@@ -30,3 +30,5 @@ To run the app locally, follow these steps:
 ## API Documentation
 
 For detailed information on the Gemini Pro API, refer to the documentation provided by Google Studio. Ensure that you have the necessary API keys and credentials for a smooth integration.
+
+<img width="437" alt="Screenshot 2024-01-01 at 2 59 06 PM" src="https://github.com/notwarnite/GeminiBot/assets/54807257/1e03a9a4-0d8b-4708-9b32-d1ee064a8e49">
