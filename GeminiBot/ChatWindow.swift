@@ -21,7 +21,7 @@ struct ChatMessage: Identifiable, Equatable {
 }
 
 @Observable
-class ChatService {
+class ChatModel {
     private var chat: Chat?
     private(set) var messages = [ChatMessage]()
     private(set) var loadingResponse = false
@@ -148,7 +148,7 @@ struct ChatWindow: View {
     @State var textInput = ""
     @State var logoAnimating = false
     @State var timer: Timer?
-    @State var chatService = ChatService()
+    @State var chatModel = ChatModel()
     var body: some View {
         ZStack {
             LinearGradient(
@@ -164,13 +164,13 @@ struct ChatWindow: View {
             
             VStack {
                 ScrollView {
-                    ForEach(chatService.messages) { chatMessage in
+                    ForEach(chatModel.messages) { chatMessage in
                         chatMessageView(chatMessage)
                     }
                 }
                 .frame(maxWidth: .infinity)
                 .overlay {
-                    if chatService.messages.isEmpty {
+                    if chatModel.messages.isEmpty {
                         ContentUnavailableView(label: {
                             Label("Enter Message To Start Chat", systemImage: "list.bullet.rectangle.portrait")
                         })
@@ -203,7 +203,7 @@ struct ChatWindow: View {
     }
     
     func sendMessage() {
-        chatService.sendMessage(textInput)
+        chatModel.sendMessage(textInput)
         textInput = ""
     }
 }
