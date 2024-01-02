@@ -172,7 +172,7 @@ struct ChatWindow: View {
                 .overlay {
                     if chatModel.messages.isEmpty {
                         ContentUnavailableView(label: {
-                            Label("Enter Message To Start Chat", systemImage: "list.bullet.rectangle.portrait")
+                            Label("Enter Message To Start Chat", systemImage: "bubble.left.and.bubble.right.fill")
                         })
                         .offset(y: -40)
                     }
